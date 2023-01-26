@@ -1,10 +1,8 @@
-import { startBot } from "./deps.ts";
-import log from "./src/utils/logger.ts";
-import { fileLoader, importDirectory } from "./src/utils/loader.ts";
-import { updateApplicationCommands } from "./src/utils/updateCommands.ts";
-// setup db
-import "./src/database/mod.ts";
 import { Bot } from "./bot.ts";
+import { startBot } from "./deps.ts";
+import { fileLoader, importDirectory } from "./src/utils/loader.ts";
+import log from "./src/utils/logger.ts";
+import { updateApplicationCommands } from "./src/utils/updateCommands.ts";
 
 log.info("Starting bot...");
 
